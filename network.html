@@ -64,6 +64,8 @@ footer[role=contentinfo] { color: #eee; background: #58544F; }
 <li><a href="#A2"> iPhone  iOS端配置</a></li>
 <li><a href="#A3">Windows  桌面端配置</a></li>
 <li><a href="#A4">Mac  OS X  端配置</a></li>
+<br>
+<li><a href="#A5">电信网络下  微林加速服务配置</a></li>
 </ul>
 
 <br><br><br>
@@ -132,7 +134,38 @@ iPhone 需要先越狱  目前iOS 9.0-9.0.2 已出
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
 
+<a name="A5" id="A5"></a>
+<h2>>电信网络下  微林加速服务配置</h2>
+<br>由于电信升级CN2精品网络  原先163(普通)网络的外网连接状况愈加糟糕
+<br>这就导致外网连接通常只有10KB左右...再加上超高的GFW丢包  体验可想而知
+<br>微林的加速服务就是构建在电信cn2网络之上  
+<br>加速之前网络  电脑-->电信普通网络-->电信普通网络国际出口(高丢包 高限速)-->美国代理主机
+<br>加速之后网络  电脑-->电信普通网络-->微林服务器(福建)-->微林cn2网络国际出口-->美国代理主机
+<br>加速之后外网体验明显改善(好像广告.....)
+<br>此外微林加速是收费的  1RMB/G 流量
 
+<br><br>第一步: 点击这里&nbsp;<a href="https://vnet.link/?rc=21432">注册微林</a><br>
+<img src="images/微林注册.png" width="591" height="634" border="0" alt="">
+<br><br>第二步: 登录进入"仪表盘"  点击充值<br>
+<img src="images/微林充值1.png" width="814" height="677" border="0" alt="">
+<br><br>第三步: 选择20/24G(按自己用量决定)  然后会自动跳转支付宝支付<br>
+<img src="images/微林20 24.png" width="842" height="696" border="0" alt="">
+<br><br>第四步: 重新进入"仪表盘"-->"用量"-->选择"vxTrans"(找不到的话在右上角设置里勾上vxTrans)<br>
+<img src="images/微林仪表盘vxTrans.png" width="845" height="648" border="0" alt="">
+<br><br>第五步: 在"vxTrans"中点击"创建连接点"<br>
+<img src="images/微林创建新连接点.png" width="847" height="688" border="0" alt="">
+<br><br>第六步: "创建连接点"配置如图  然后确定即可<br>
+<img src="images/微林创建连接点.png" width="636" height="602" border="0" alt="">
+<br><br>第七步: "创建连接点"确认提交后  在"连接点列表"中  稍等系统自动生成接入点
+<br>记录下服务器地址  服务器端口<br>
+<img src="images/微林连接点列表.png" width="820" height="199" border="0" alt="">
+<br><br>第八步: 用微林生成的服务器地址  端口  替换掉原先的服务器地址(104.224.139.55)还有端口80<br>
+<img src="images/微林生成.png" width="417" height="167" border="0" alt="">
+<br><br>示例: iPhone上更改之后<br>
+<img src="images/微林更改之后.png" width="448" height="796" border="0" alt="">
+
+<br>开启后测速---><a href="www.google.com">Google</a>
+<br><br>
 
 </div>
 </article>
